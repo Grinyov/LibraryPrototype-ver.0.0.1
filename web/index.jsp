@@ -38,7 +38,7 @@
   </div>
 
   <div class="footer">
-    developer: Grinyov, 2015
+    since 2015
   </div>
 </div>
 
