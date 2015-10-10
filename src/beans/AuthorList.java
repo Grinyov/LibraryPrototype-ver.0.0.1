@@ -28,6 +28,7 @@ public class AuthorList {
             rs = stmt.executeQuery("select * from author order by fio");
             while (rs.next()) {
                 Author author = new Author();
+                author.setId(rs.getLong("id"));
                 author.setName(rs.getString("fio"));
                 authorList.add(author);
             }
