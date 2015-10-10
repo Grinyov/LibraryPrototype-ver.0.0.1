@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/beans/Author.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/beans/AuthorList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/beans/Book.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/beans/BookList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/beans/Genre.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/beans/GenreList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/dao/Database.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlets/ShowImage.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/css/style_index.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/css/style_main.css" charset="UTF-8" />
   </component>
