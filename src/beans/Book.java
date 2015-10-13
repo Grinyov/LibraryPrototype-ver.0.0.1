@@ -1,12 +1,11 @@
 package beans;
 
 import java.io.Serializable;
-import java.sql.Date;
 
 /**
  * Created by green on 09.10.2015.
  */
-public class Book implements Serializable {
+public class Book implements Serializable{
 
     private long id;
     private String name;
@@ -98,6 +97,5 @@ public class Book implements Serializable {
     public void setImage(byte[] image) {
         this.image = image;
     }
-
 
 }

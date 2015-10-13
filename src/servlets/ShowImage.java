@@ -2,13 +2,13 @@ package servlets;
 
 import beans.Book;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.util.ArrayList;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.util.ArrayList;
 
 /**
  * Created by green on 10.10.2015.
@@ -36,6 +36,8 @@ public class ShowImage extends HttpServlet {
             Book book = list.get(index);
             response.setContentLength(book.getImage().length);
             out.write(book.getImage());
+        }catch (Exception ex){
+            ex.printStackTrace();
         } finally {
             out.close();
         }
